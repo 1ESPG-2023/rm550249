@@ -1,43 +1,43 @@
-const liElementHtml = document.getElementsByTagName("li");
-const liElementArray = [...liElementHtml];
+// const liElementHtml = document.getElementsByTagName("li");
+// const liElementArray = [...liElementHtml];
 
-// for (let index = 0; index < liElement.length; index++) {
-//     console.log(liElement[index].textContent)
+// // for (let index = 0; index < liElement.length; index++) {
+// //     console.log(liElement[index].textContent)
     
-// }
-// console.log(liElement.length)
+// // }
+// // console.log(liElement.length)
 
-//Objetos são formados por propriedades (innerHTML - formata tags) (innerText - formata textos)
-
-
-
-//Declaração de ARRAYS
-let nr1 = [1,2,3,4,5];
-let nr2 = [6,7,8,9,10];
-//let nr3 = nr1 + nr2;
-//Espalhar o array com SPREAD [...]
-let nr3 = [nr1,nr2];
-
-console.log(`Array-1 ${nr1}`);
-console.log(`Array-2 ${nr2}`);
-console.log(`Array-3 ${nr3}`);
+// //Objetos são formados por propriedades (innerHTML - formata tags) (innerText - formata textos)
 
 
-//Listando um array! Técnica especial
-nr3.forEach((itemDoArray)=> {
-    console.log(`Array-3 sendo listado ${itemDoArray}`);
-})
-nr3.map((numero, key)=>{
-    console.log(`${(key+1)} - Itens do array - ${numero}`);
-   numero.forEach((digitos)=>
-        console.log(digitos)
-    );
-})   
-console.log(liElementArray)
-liElementArray.map((item,key)=>{
-    if(item.textContent == "item-39"){
-        console.log(`${key+1} - ${item.textContent}`)  
-    }
+
+// //Declaração de ARRAYS
+// let nr1 = [1,2,3,4,5];
+// let nr2 = [6,7,8,9,10];
+// //let nr3 = nr1 + nr2;
+// //Espalhar o array com SPREAD [...]
+// let nr3 = [nr1,nr2];
+
+// console.log(`Array-1 ${nr1}`);
+// console.log(`Array-2 ${nr2}`);
+// console.log(`Array-3 ${nr3}`);
+
+
+// //Listando um array! Técnica especial
+// nr3.forEach((itemDoArray)=> {
+//     console.log(`Array-3 sendo listado ${itemDoArray}`);
+// })
+// nr3.map((numero, key)=>{
+//     console.log(`${(key+1)} - Itens do array - ${numero}`);
+//    numero.forEach((digitos)=>
+//         console.log(digitos)
+//     );
+// })   
+// console.log(liElementArray)
+// liElementArray.map((item,key)=>{
+//     if(item.textContent == "item-39"){
+//         console.log(`${key+1} - ${item.textContent}`)  
+//     }
     
-})
+// })
 
