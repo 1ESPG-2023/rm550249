@@ -75,6 +75,13 @@ function mudaCor(){
     
     const cabecalho = document.querySelector(".cabecalho")
     cabecalho.setAttribute("style", `background-color:rgb(${r},${g},${b})`)
-    tmp = setTimeout(mudaCor, 150)
+    // tmp = setTimeout(mudaCor, 150)
 }
 mudaCor();
+function mudaBanner(){
+let nr = Math.round(Math.random()*3);
+let caminho = `./img/banner-lateral-${nr}.png`;
+const img1 = document.querySelector(".l-e > img")
+img1.src = caminho
+}
+tmp = setTimeout(mudaBanner, 2000)
